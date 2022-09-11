@@ -1,0 +1,267 @@
+@media (min-width: 360px) {
+    .box_and_name{
+    display: flex; 
+    flex-direction: row; 
+    margin-left: 10px;
+    }
+
+    .small_box {
+        height: 20px; 
+        width: 20px;
+        background-color: blue;
+        margin-top: 30px;
+        border-radius: 2px;
+        
+    }
+
+    .my_name {
+      font-family: 'Courier New', Courier, monospace;
+      margin-left: 14px;  
+      margin-top: -23px;
+      margin-left: 34px;
+      font-weight: bold;
+    }
+
+    .occupation {
+        margin-top: -7px;
+        color: #68707d;
+       font-family:'Courier New', Courier, monospace;
+       font-size: 17px;
+       margin-left: 44px;
+       font-weight: 80;
+    }
+
+    .iconTop{
+        position: absolute; 
+        right: 30px;
+        top: 30px;
+    }
+
+    .modalContainer{
+        display: flex;  
+        flex-direction: column;
+        margin-left: 40%;
+        margin-top: 70px;
+        padding-bottom: 14px;
+    }
+
+    .closeIcon{
+       position: absolute;
+       right: 30px;
+       top: 23px
+    }
+
+    .title{
+        margin-top: 40px;
+        font-weight: bolder;
+    }
+   
+
+    .about_me_bg_box{
+        height: 300px;
+        width: 100%;
+        background-color: skyblue;
+        margin-top: 200px;
+        z-index: 1;
+    }
+
+    .about_me_box{
+        height: 360px;
+        width: 300px;
+        background-color: #59ABE3;
+        margin: auto;
+        margin-top: -480px;
+    }
+
+    .munasheImage{
+        height: 100px;
+        width: 100px; 
+        border-radius: 50px;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+
+    .name {
+     font-size: 24px;
+     font-weight: bolder; 
+     font-family: 'Courier New', Courier, monospace; 
+     margin-left: 100px;
+     margin-top: 13px;
+    }
+    
+    .surname {
+        margin-top: -12px;
+    }
+
+    .underline{
+        border: solid blue 1px;
+        width: 90px;
+        margin-left: 105px;
+    }
+
+    .resume_and_projects {
+      display: flex; 
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .media_links{
+        display: flex;
+        width: 300px;
+        height: 30px; 
+        background-color: white;
+        margin-top: 40px;
+        justify-content: center;
+        
+    }
+
+    .hello{
+        font-weight: bolder; 
+        margin-top: 30px; 
+        margin-left: 40px;
+        font-size: 40px;
+    }
+
+    .more_about_me {
+        background-color: skyblue;
+        height: 350px
+    }
+    .about_me_title {
+        margin-left: 40px;
+        color: black;
+       font-family:'Courier New', Courier, monospace;
+       font-weight: 80;
+    }
+
+    .social_media_links{
+        height: 100px; 
+        width: 100%;
+        background-color: white;
+    }
+    .follow{
+        font-weight: bold; 
+        font-size: 20px;
+        margin-top: 12px;
+        margin-left: 12px;
+    }
+
+    .media_icons{
+        margin-left: 12px;
+    }
+    .emailContainer {
+        position: absolute; 
+        right: 12px;
+        margin-top: -100px;
+    }
+    .email { 
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .email_icon {
+        margin-top: -12px;
+        margin-left: 12px;
+        
+    }
+    .nav_context{
+        display: none;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .iconTop{
+        display: none;
+    }
+    
+    .nav_context{
+        display: contents; 
+        display: flex; 
+       margin-left: 960px;
+       margin-top: -45px; 
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      cursor: pointer;
+    }
+    
+    .nav_context:hover {
+        color: "blue"
+    }
+
+    .occupation {
+        margin-left: 270px;
+        margin-top: -19px;
+
+    }
+
+    .my_name {
+     font-size: 24px;
+     font-family: Arial;
+     font-weight: bolder;
+    }
+    .about_me_bg_box{
+        width: 500px;
+        margin-top: 90px;
+        height: 500px;
+    }
+    
+   .more_about_me{
+    background-color: white;
+    margin-left: 550px;
+    margin-top: -60px;
+   }
+   .about_me_box{
+    margin-left: 200px;
+    margin-top: -450px;
+    width: 350px;
+    height: 400px;
+   }
+   .munasheImage{
+    margin-right: 30px;
+    height: 170px;
+    width: 170px;
+    border-radius: 85px;
+   }
+   .name{
+    padding-left: 29px;
+    padding-top: 20px;
+   }
+   .surname{
+  margin-top: -34px;
+   }
+
+   .resume_and_projects{
+    position: absolute; 
+    margin-left: 380px;
+    top: 390px;
+   }
+
+   .underline{
+    display: none;
+   }
+   .media_links{
+    width: 350px
+   }
+
+   .hello{
+    position: absolute;
+    margin-top: -250px;
+    right: 580px;
+    font-size: 80px;
+    font-weight: bolder;
+   }
+
+.social_media_links{
+    margin-left: 800px;
+    margin-top: -100px;
+   }
+
+   .emailContainer{
+    margin-right: 290px;
+   }
+   .follow{
+    font-size: 17px;
+   }
+   .email{
+    font-size: 17px;
+   }
+}

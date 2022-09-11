@@ -1,0 +1,24 @@
+.resume_container{
+    margin-top: 30px; 
+    height: 330px; 
+    width: 300px;
+    background-color:  skyblue;
+    margin: auto; 
+    margin-top: 30px;
+ }
+ 
+ .Small_box{
+     height: 15px;
+     width: 15px; 
+     background-color: blue;
+ }
+ 
+ .skills_data{
+     display: flex; 
+     justify-content: space-between;
+ }
+ 
+ .experience{
+      display: flex; 
+      justify-content: center; 
+ }
